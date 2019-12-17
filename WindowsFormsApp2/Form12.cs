@@ -25,10 +25,18 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
+            string name = textBox1.Text;
+            
+            FileClass F = new FileClass(name);
             FileStream file = new FileStream("Order.txt", FileMode.Create, FileAccess.Write);
             this.Hide();
             Walker f = new Walker();
             f.Show();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
