@@ -1,0 +1,9 @@
+Fried chicken   45
+Walters Burger   65
+Chicken Pane   45
+Classic Burger   55
+Grilled Chicken   50
+Fried chicken   35
+Susage   30
+Kofta   33
+Fajita   29
